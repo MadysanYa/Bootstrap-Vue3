@@ -1,26 +1,46 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavigationSection></NavigationSection>
+  <HeaderSection></HeaderSection>
+  <ServiceSection></ServiceSection>
+  <PortfolioSection></PortfolioSection>
+  <AboutSection></AboutSection>
+  <TeamSection></TeamSection>
+  <ClientSection></ClientSection>
+  <ContactSection></ContactSection>
+  <FooterSection></FooterSection>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// IMPORT EXTERNAL JS FILE
+import './js/scripts.js';
+
+// IMPORT COMPONENTS
+import NavigationSection from './components/NavigationSection.vue';
+import HeaderSection from './components/HeaderSection.vue';
+import ServiceSection from './components/ServiceSection.vue';
+import PortfolioSection from './components/PortfolioSection.vue';
+import AboutSection from './components/AboutSection.vue';
+import TeamSection from './components/TeamSection.vue';
+import ClientSection from './components/ClientSection.vue';
+import ContactSection from './components/ContactSection.vue';
+import FooterSection from './components/FooterSection.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavigationSection,
+    HeaderSection,
+    ServiceSection,
+    PortfolioSection,
+    AboutSection,
+    TeamSection,
+    ClientSection,
+    ContactSection,
+    FooterSection,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './css/styles.css';
 </style>
