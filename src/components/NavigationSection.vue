@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div id="top-header">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">
+                <a class="navbar-brand" @click="goToSection('top-header')">
                     <img v-bind:src="logo" alt="navbar-logo.svg">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +11,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item" v-for="(menu, index) in menus" :key="menu.id">
-                            <a class="nav-link" v-bind:href="'#'+index">{{ menu }}</a>
+                            <a class="nav-link" @click="goToSection(index)">{{ menu }}</a>
                         </li>
                     </ul>
                 </div>
@@ -34,7 +34,14 @@
                     contact: 'Contact',
                 }
             }
-        }
+        },
+        methods: {
+            goToSection(SectionID) {
+                document.getElementById(SectionID).scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
+        },
     }
 </script>
 

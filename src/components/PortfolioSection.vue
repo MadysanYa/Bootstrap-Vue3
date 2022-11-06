@@ -24,10 +24,14 @@
                 </div>
             </div>
         </section>
+
+        <PortfolioModal></PortfolioModal>
     </div>
 </template>
 
 <script>
+    import PortfolioModal from './PortfolioModal.vue'
+
     export default {
         data() {
             return {
@@ -72,6 +76,9 @@
                     }
                 ]
             }
+        },
+        components: {
+            PortfolioModal
         }
     }
 </script>
