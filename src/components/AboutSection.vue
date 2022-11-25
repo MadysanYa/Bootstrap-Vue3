@@ -41,38 +41,38 @@
         data() {
             return {
                 heading: 'About',
-                subheading: 'Lorem ipsum dolor sit amet consectetur.',
+                subheading: 'We have a clear vision, mission and our own value.',
                 timeLineBePart: 'Be Part',
                 timeLineOfOur: 'Of Our',
                 timeLineStory: 'Story!',
                 timelines: [
                     {
                         timeLineInverted: '',
-                        timeLineImg: require("../assets/img/about/1.jpg"),
-                        timeLineHeading: '2009-2011',
-                        timeLineSubheading: 'Our Humble Beginnings',
-                        timeLineBody: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+                        timeLineImg: require("../assets/img/about/front-side.png"),
+                        timeLineHeading: '',
+                        timeLineSubheading: 'Z1 Flexible Solution',
+                        timeLineBody: 'is an outstanding IT solution company established with perfectness in mind during the year 2015 and malignly focusing on many areas such as: Property Installment and Clients management system, Project Management, Financial software such as Loan Management System (LMS) product etc….',
                     },
                     {
                         timeLineInverted: 'timeline-inverted',
-                        timeLineImg: require("../assets/img/about/2.jpg"),
-                        timeLineHeading: 'March 2011',
-                        timeLineSubheading: 'An Agency is Born',
-                        timeLineBody: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+                        timeLineImg: require("../assets/img/about/back-side.png"),
+                        timeLineHeading: '',
+                        timeLineSubheading: 'Our Vision',
+                        timeLineBody: 'We aim to successfully deliver all our IT projects on time with highly innovative, reliable and maintainable solutions to our clients. we commit to construct long-term relationships with our customers with the purpose of growing together.',
                     },
                     {
                         timeLineInverted: '',
-                        timeLineImg: require("../assets/img/about/3.jpg"),
-                        timeLineHeading: 'December 2015',
-                        timeLineSubheading: 'Transition to Full Service',
-                        timeLineBody: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+                        timeLineImg: require("../assets/img/about/left-side.png"),
+                        timeLineHeading: '',
+                        timeLineSubheading: 'Our Mission',
+                        timeLineBody: 'With our unique core mission, we target to produce top-class software and provide IT solutions service to every business. In addition, we full-fill the requirements of IT related consulting using cutting-edge technologies with robust development tools and client-oriented perspective.',
                     },
                     {
                         timeLineInverted: 'timeline-inverted',
-                        timeLineImg: require("../assets/img/about/4.jpg"),
-                        timeLineHeading: 'July 2020',
-                        timeLineSubheading: 'Phase Two Expansion',
-                        timeLineBody: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+                        timeLineImg: require("../assets/img/about/right-side.png"),
+                        timeLineHeading: '',
+                        timeLineSubheading: 'Our Commitment',
+                        timeLineBody: 'In term of Talent acquisition, we employ high-class professionals with multiple years of experience in IT in complex projects development and challenging IT solutions. We invest heavily on unique solutions for various businesses within the agreed budget and a timeline. Software products and solutions developed by our technical engineers, are acceptable and follow the standards locally and internationally.',
                     }
                 ]
             }

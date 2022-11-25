@@ -14,8 +14,8 @@
     export default {
         data() {
             return {
-                subHeading: "Welcome To Our Studio!",
-                heading: "It's Nice To Meet You",
+                subHeading: "Transform Traditional Platform To",
+                heading: "Digital Platform",
                 tellMore: "Tell Me More",
                 tellMoreLink: "#services",
             }
