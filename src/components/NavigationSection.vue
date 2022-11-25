@@ -1,12 +1,12 @@
 <template>
-    <div id="top-header">
+    <div id="home">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" @click="goToSection('top-header')">
+                <a class="navbar-brand" @click="goToSection('home')">
                     <img v-bind:src="logo" alt="navbar-logo.svg">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    {{ label }}<i class="fas fa-bars ms-1"></i>
+                    {{ label }}<em class="fas fa-bars ms-1"></em>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
@@ -24,13 +24,14 @@
     export default {
         data() {
             return {
-                logo: require("../assets/img/navbar-logo.svg"),
+                logo: require("../assets/img/flexible-solution.png"),
                 label: 'Menu',
                 menus: {
+                    home: 'Home',
                     services: 'Services',
-                    portfolio: 'Portfolio',
+                    team: 'Products',
+                    // portfolio: 'Portfolio',
                     about: 'About',
-                    team: 'Team',
                     contact: 'Contact',
                 }
             }

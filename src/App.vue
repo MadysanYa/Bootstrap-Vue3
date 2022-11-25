@@ -2,9 +2,9 @@
   <NavigationSection></NavigationSection>
   <HeaderSection></HeaderSection>
   <ServiceSection></ServiceSection>
-  <PortfolioSection></PortfolioSection>
-  <AboutSection></AboutSection>
   <TeamSection></TeamSection>
+  <!-- <PortfolioSection></PortfolioSection> -->
+  <AboutSection></AboutSection>
   <ClientSection></ClientSection>
   <ContactSection></ContactSection>
   <FooterSection></FooterSection>
@@ -18,7 +18,7 @@ import './js/scripts.js';
 import NavigationSection from './components/NavigationSection.vue';
 import HeaderSection from './components/HeaderSection.vue';
 import ServiceSection from './components/ServiceSection.vue';
-import PortfolioSection from './components/PortfolioSection.vue';
+// import PortfolioSection from './components/PortfolioSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import TeamSection from './components/TeamSection.vue';
 import ClientSection from './components/ClientSection.vue';
@@ -31,7 +31,7 @@ export default {
     NavigationSection,
     HeaderSection,
     ServiceSection,
-    PortfolioSection,
+    // PortfolioSection,
     AboutSection,
     TeamSection,
     ClientSection,
